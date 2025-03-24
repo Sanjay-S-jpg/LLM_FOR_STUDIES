@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Generate Anything 🤖</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #e6f2ff url("https://img.freepik.com/free-vector/hand-drawn-back-school-background_23-2149464866.jpg") no-repeat center center fixed;
+      background-size: cover;
+      padding: 40px 20px;
+      margin: 0;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+    }
+    form {
+      background: #fff;
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    label { display: block; margin-bottom: 8px; color: #555; }
+    input[type="text"], select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+      background: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    input[type="submit"]:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+  <h1 style="color: #9d0606;">Generate Anything 🤖</h1>
+  <form action="/index" method="post">
+    <label for="input_text">Enter the Topic:</label>
+    <input type="text" id="input_text" name="input_text" required>
+    <label for="no_words">No of Words:</label>
+    <input type="text" id="no_words" name="no_words" required>
+    <label for="blog_style">Writing the response for:</label>
+    <select id="blog_style" name="blog_style">
+      <option value="Professors">Professors</option>
+      <option value="Student">Student</option>
+      <option value="Common People">Common People</option>
+    </select>
+    <input type="submit" value="Generate">
+  </form>
+</body>
+</html>

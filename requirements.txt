@@ -1,0 +1,11 @@
+
+---
+
+### requirements.txt
+
+```text
+Flask==2.2.2
+mysql-connector-python==8.0.33
+opencv-python==4.7.0.72
+pytesseract==0.3.10
+langchain-community==0.0.4  # Replace with the latest version if needed
