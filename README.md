@@ -120,7 +120,7 @@ This project uses a custom LLM model binary (approx. 2.7GB) that is not included
 
 ## File Structure
 
-kite-education-app/
+Education-app/
 ├── app.py
 ├── database.py
 ├── requirements.txt
