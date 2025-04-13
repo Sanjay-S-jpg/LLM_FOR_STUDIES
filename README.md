@@ -128,11 +128,6 @@ Education-app/
 ├── .env               # Contains LANGCHAIN_MODEL_URL and other configuration
 └── templates/
 
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Acknowledgements
 
 - Flask: https://flask.palletsprojects.com/
